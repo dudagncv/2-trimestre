@@ -6,59 +6,70 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Qual atividade ilegal em que você provavelmente se envolviria?",
+        enunciado: "QUAL ATIVIDADE ILEGAL VOCÊ PROVAVELMENTE DE ENVOLVERIA?",
         alternativas: [
             {
-                texto: "Contrabando de cigarros!",
+                texto: "Contrabando de drogas",
+                afirmacao: "Alfred Ballí Treviño"
             },
             {
-                texto: "Tráfico de drogas",
-            }
+                texto: "Tráfico de drgogas",
+                afirmacao: "Pablo Escobar"
+            },
             {
-                texto: "Falsificação de dinheiro"
-            }
+                 texto: "Falsificação de Dinheiro",
+                afirmacao: "Pablo Escobar"
+            },
             {
-                texto: "Sequestro"
+                 texto: "Sequestro",
+                afirmacao: "Lázaro barbosa"
             }
+            
         ]
     },
     {
-        enunciado: " Pra onde você iria se tivesse que fugir? ",
+        enunciado: "PRA ONDE VOCÊ IRA SE TIVESSE QUE FUGIR?",
         alternativas: [
             {
                 texto: "Floresta",
+                afirmacao: "Lázaro barbosa"
             },
             {
                 texto: "Praia",
-            }
+                afirmacao: "Alfred Ballí Treviño"
+            },
             {
-                texto: "Outro país"
-            }
+               texto: "Outro país",
+                afirmacao: "Pablo Escobar"
+            },
             {
-                texto: "Interior de uma cidade"
+                texto: "Interior de uma cidade",
+                afirmacao: "Lázaro barbosa"  
             }
         ]
     },
     {
-        enunciado: "Se você fosse escolher um objeto qual seria?",
+        enunciado: "Se você fosse escolher um objeto qual seria? ",
         alternativas: [
             {
                 texto: "Faca",
+                afirmacao: "Lázaro barbosa"
             },
             {
                 texto: "Arma",
-            }
+                afirmacao: " Pablo Escobar "
+            },
             {
-                texto: "Espada"
-            }
+                texto: "Espada",
+                afirmacao: "Zoro" 
+            },
             {
-                texto: "Luva com lâminas afiadas"
+                texto: "Luva com lâminas afiadas",
+                afirmacao: "Freddy Krueger "
             }
         ]
     },
 ];
-
-
 let atual = 0;
 let perguntaAtual;
 let historiaFinal = "";
