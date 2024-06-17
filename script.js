@@ -13,7 +13,7 @@ const perguntas = [
                 afirmacao: "Alfred Ballí Treviño"
             },
             {
-                texto: "Tráfico de drgogas",
+                texto: "Tráfico de drogas",
                 afirmacao: "Pablo Escobar"
             },
             {
@@ -102,7 +102,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "Em qualquer resposta ligue 190. ";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
